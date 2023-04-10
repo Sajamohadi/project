@@ -1,0 +1,259 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("1.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 90vh;
+	right: 5%;
+	position:relative; 
+background-attachment: fixed;
+}
+
+.container{
+	    
+	     position: absolute;
+	     margin-top: 220px;
+	     margin-left: 600px;
+
+
+}
+
+.container .slider{
+	width: 200px;
+    border-radius: 120px;
+	overflow: hidden;
+
+
+}
+.container .slider ul{
+	padding: 0;
+	width: 1500px;
+	list-style: none;
+	position: relative;
+	animation: sliding 5s ease-in-out infinite
+
+}
+.container .slider ul li {
+	float: left;
+	position: relative;
+}
+.container .slider ul li img{
+	width: 290px;
+
+}
+
+.container .slider ul:hover
+{
+	animation-play-state: paused;
+}
+
+
+@keyframes sliding
+{
+	5%,10%{left: 0}
+	15%,30%{left: -300px;}
+    35%,50%{left: -600px;}
+    60%,80%{left: -900px;}
+}
+
+.buttons{
+	
+    margin-top: 470px;
+    position: absolute;
+    margin-left: -230px;
+ 
+}
+.buttons .btn-3{
+	 margin-left: 380px;
+}
+button{
+	width: 120px;
+	height: 40px;
+	margin-left: 370px;
+	border-radius: 10px;
+	background: #fff;
+
+
+	
+}
+
+ button a{
+ 	text-decoration: none;
+ 	font-size: 20px;
+ 	color: #000;
+
+ }
+
+.btn-1{
+	border: none;
+	box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+	
+}
+
+.btn-1:hover{
+	background: #0984e3;
+	border: 2px solid #0984e3;
+	box-shadow: 0 0 5px cyan, 0 0 25px cyan,0 0 50px cyan, 0 0 100px cyan, 0 0 300px cyan;
+}
+
+
+
+
+
+.btn-2:hover{
+	background: #0984e3;
+	border: 2px solid #0984e3;
+	box-shadow: 0 0 5px cyan, 0 0 25px cyan,0 0 50px cyan, 0 0 100px cyan, 0 0 300px cyan;
+}
+.btn-2
+{
+	border: none;
+	box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+
+
+
+.btn-3:hover{
+	background: #0984e3;
+	border: 2px solid #0984e3;
+	box-shadow: 0 0 5px cyan, 0 0 25px cyan,0 0 50px cyan, 0 0 100px cyan, 0 0 300px cyan;
+}
+.btn-3
+{
+	border: none;
+	box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container2{
+	    
+	     position: absolute;
+	     margin-top: 220px;
+	     margin-left: 100px;
+
+
+}
+
+.container2 .slider2{
+	width: 200px;
+    border-radius: 120px;
+	overflow: hidden;
+
+
+}
+.container2 .slider2 ul{
+	padding: 0;
+	width: 1500px;
+	list-style: none;
+	position: relative;
+	animation: sliding 5s ease-in-out infinite
+
+}
+.container2 .slider2 ul li {
+	float: left;
+	position: relative;
+}
+.container2 .slider2 ul li img{
+	width: 290px;
+
+}
+
+.container2 .slider2 ul:hover
+{
+	animation-play-state: paused;
+}
+
+
+@keyframes sliding
+{
+	5%,10%{left: 0}
+	15%,30%{left: -300px;}
+    35%,50%{left: -600px;}
+    60%,80%{left: -900px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container3{
+	    
+	     position: absolute;
+	     margin-top:220px;
+	     margin-left: 1100px;
+
+
+}
+
+.container3 .slider3{
+	width: 200px;
+    border-radius: 120px;
+	overflow: hidden;
+
+
+}
+.container3 .slider3 ul{
+	padding: 0;
+	width: 1500px;
+	list-style: none;
+	position: relative;
+	animation: sliding 5s ease-in-out infinite
+
+}
+.container3 .slider3 ul li {
+	float: left;
+	position: relative;
+}
+.container3 .slider3 ul li img{
+	width: 290px;
+
+}
+
+.container3 .slider3 ul:hover
+{
+	animation-play-state: paused;
+}
+
+
+@keyframes sliding
+{
+	5%,10%{left: 0}
+	15%,30%{left: -300px;}
+    35%,50%{left: -600px;}
+    60%,80%{left: -900px;}
+}
